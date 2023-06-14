@@ -1,0 +1,45 @@
+/* background image */
+body {
+    background-image: url("../images/bg-01.jpg");
+  }
+  
+  /* form styles */
+  
+  /*                social media icons                */
+  img.sslogo {
+    max-width: 25px;
+  }
+  
+  .loginpage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 30vw;
+  }
+  .wrapcontainer {
+    width: 100%;
+    padding: 20% 0%;
+    height: 65vh;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .inputbox {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .login{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 5%;
+  }
